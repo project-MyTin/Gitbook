@@ -166,3 +166,67 @@ Could not find a cake matching this query.
 
 
 
+
+
+
+
+{% api-method method="delete" host="http://mytin.com" path="/motion" %}
+{% api-method-summary %}
+Delete
+{% endapi-method-summary %}
+
+{% api-method-description %}
+루틴 삭제  
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authentication" type="string" required=true %}
+Authentication token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="id" type="string" required=true %}
+ 동작 아이  
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Cake successfully retrieved.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "statusCode": "10000",
+    "message": "motion update successful",
+    "data": {}
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Could not find a cake matching this query.
+{% endapi-method-response-example-description %}
+
+```
+{
+    "statusCode": "10001",
+    "message": "",
+    "data": {}
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+
+
+
