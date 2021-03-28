@@ -6,7 +6,7 @@ description: '루틴 관리 - 생성, 수정, 삭제'
 
 {% api-method method="post" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
- routine create  
+ Routine Create  
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -88,7 +88,7 @@ Could not find a cake matching this query.
 
 {% api-method method="put" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
-routine update  
+Routine Update  
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -170,7 +170,7 @@ Could not find a cake matching this query.
 
 {% api-method method="delete" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
- routine delete 
+ Routine Delete 
 {% endapi-method-summary %}
 
 {% api-method-description %}

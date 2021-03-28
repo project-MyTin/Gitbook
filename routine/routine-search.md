@@ -4,13 +4,13 @@ description: '루틴 조회 with 필터, 정렬'
 
 # Search
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
-
+Routine Search
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+  루틴 검색 \(필터 + 정렬 기능\)  
 {% endapi-method-description %}
 
 {% api-method-spec %}
