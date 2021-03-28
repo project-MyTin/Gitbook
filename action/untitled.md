@@ -203,7 +203,7 @@ Cake successfully retrieved.
 ```
 {
     "statusCode": "10000",
-    "message": "motion update successful",
+    "message": "motion delete successful",
     "data": {}
 }
 ```

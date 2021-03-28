@@ -4,7 +4,7 @@ description: 동작 검색
 
 # Search
 
-{% api-method method="get" host="http://mytin.com" path="/motion/search" %}
+{% api-method method="get" host="http://mytin.com" path="/motion" %}
 {% api-method-summary %}
 Search
 {% endapi-method-summary %}
