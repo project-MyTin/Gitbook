@@ -29,31 +29,24 @@ Routine Search
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
- 
+  루틴 검색 성공  
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "message": "routine search successful"
+}
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-
+  요청 형식에 문제가 있음  
 {% endapi-method-response-example-description %}
 
 ```
-
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
+{
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
