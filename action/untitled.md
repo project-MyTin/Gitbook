@@ -45,13 +45,13 @@ Authentication token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="url" type="string" required=false %}
- 동작 URL  
+ 동작 URL
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
-{% api-method-response-example httpCode=200 %}
+{% api-method-response-example httpCode=201 %}
 {% api-method-response-example-description %}
 Cake successfully retrieved.
 {% endapi-method-response-example-description %}
@@ -65,15 +65,15 @@ Cake successfully retrieved.
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=409 %}
 {% api-method-response-example-description %}
-Could not find a cake matching this query.
+
 {% endapi-method-response-example-description %}
 
 ```
 {
-    "statusCode": StatusCode,
-    "message": "motion registration successful",
+    "statusCode": "10001",
+    "message": "Already exists",
     "data": {}
 }
 ```
@@ -86,7 +86,7 @@ Could not find a cake matching this query.
 
 
 
-{% api-method method="put" host="http://mytin.com" path="/motion" %}
+{% api-method method="put" host="http://mytin.com" path="/motion/:id" %}
 {% api-method-summary %}
 Update
 {% endapi-method-summary %}
@@ -97,6 +97,12 @@ Update
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="string" required=false %}
+ 수정할 id  
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authentication" type="string" required=true %}
 Authentication token
@@ -160,6 +166,20 @@ Could not find a cake matching this query.
 }
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "statusCode": "10001",
+    "message": "motion not found",
+    "data": {}
+}
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
@@ -211,13 +231,27 @@ Cake successfully retrieved.
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "statusCode": "10001",
+    "message": "bad request",
+    "data": {}
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
 Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
 ```
 {
     "statusCode": "10001",
-    "message": "",
+    "message": "motion not found",
     "data": {}
 }
 ```
