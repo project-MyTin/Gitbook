@@ -42,16 +42,13 @@ Cake successfully retrieved.
 {
     "statusCode": "10000",
     "message": "search sucess",
-    "data": [{
-        id:'',
+    "data": {
         name:'',
-        image:'',
-        part:[
-            '','',''
-        ]
+        description:'',
+        time:'',
+        type:'',
+        url:''
     }
-    ...
-    ]
 }
 ```
 {% endapi-method-response-example %}

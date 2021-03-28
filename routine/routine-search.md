@@ -31,8 +31,12 @@ Routine Detail
 ```
 {
     "message": "routine read successful",
-    "info": {
-        
+    "data": {
+        name:'',
+        description:'',
+        time:'',
+        type:'',
+        url:''
     }
 }
 ```
