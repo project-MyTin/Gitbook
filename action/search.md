@@ -10,7 +10,7 @@ Search
 {% endapi-method-summary %}
 
 {% api-method-description %}
- 루틴 검색  
+ 동작 검색  
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -43,11 +43,13 @@ Cake successfully retrieved.
     "statusCode": "10000",
     "message": "search sucess",
     "data": {
+        id:'',
         name:'',
-        description:'',
-        time:'',
-        type:'',
-        url:''
+        Difficulty:'',
+        parts:[
+            '','',''
+        ],
+        image:''
     }
 }
 ```
