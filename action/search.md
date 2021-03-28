@@ -53,8 +53,22 @@ Cake successfully retrieved.
         description:'',
         time:'',
         type:'',
-        
+        url:''
     }
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "statusCode": "10001",
+    "message": "An invalid format",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -65,7 +79,11 @@ Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{
+    "statusCode": "10001",
+    "message": "not found motions",
+    "data": {}
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
