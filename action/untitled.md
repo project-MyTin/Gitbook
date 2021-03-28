@@ -10,7 +10,7 @@ Create
 {% endapi-method-summary %}
 
 {% api-method-description %}
- 루틴 생
+ 루틴 생성  
 {% endapi-method-description %}
 
 {% api-method-spec %}

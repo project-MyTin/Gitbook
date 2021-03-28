@@ -10,7 +10,7 @@ Search
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+ 루틴 검색  
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -28,7 +28,7 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
+{% api-method-parameter name="" type="string" %}
 The API will do its best to find a cake matching the provided recipe.
 {% endapi-method-parameter %}
 
@@ -45,7 +45,17 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{
+    "statusCode": "10000",
+    "message": "search sucess",
+    "data": {
+        name:'',
+        description:'',
+        time:'',
+        type:'',
+        
+    }
+}
 ```
 {% endapi-method-response-example %}
 
