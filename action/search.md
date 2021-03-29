@@ -4,7 +4,7 @@ description: 동작 검색
 
 # Search
 
-{% api-method method="get" host="http://mytin.com" path="/motion" %}
+{% api-method method="get" host="http://mytin.com" path="/motion/search" %}
 {% api-method-summary %}
 Search
 {% endapi-method-summary %}
@@ -22,6 +22,10 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="q" type="string" required=false %}
+ 검색 값  
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="filter" type="string" %}
   필터
 {% endapi-method-parameter %}
