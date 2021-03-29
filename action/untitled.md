@@ -120,6 +120,10 @@ Authentication token
 {% endapi-method-form-data-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="difficaulty" type="string" required=true %}
+ 동작 난이도  
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="name" type="string" required=true %}
  동작 이름  
 {% endapi-method-parameter %}
