@@ -12,7 +12,7 @@ main
 {% endapi-method-summary %}
 
 {% api-method-description %}
-루틴 생성  
+루틴 검색 메인  
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -152,8 +152,6 @@ Cake successfully retrieved.
 
 
 
-
-
 {% api-method method="put" host="http://mytin.com" path="/motion/:id" %}
 {% api-method-summary %}
 Update
@@ -255,10 +253,6 @@ Could not find a cake matching this query.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
-
-
 
 
 
