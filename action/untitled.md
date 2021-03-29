@@ -1,5 +1,5 @@
 ---
-description: '루틴 관리 - 생성, 수정, 삭제'
+description: '동작 관리 - 생성, 수정, 삭제'
 ---
 
 # Management
@@ -28,6 +28,10 @@ Authentication token
 {% endapi-method-form-data-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="difficulty" type="string" required=true %}
+ 동작 난이도  
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="name" type="string" required=true %}
  동작 이름  
 {% endapi-method-parameter %}
