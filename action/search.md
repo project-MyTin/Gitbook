@@ -10,7 +10,8 @@ Search
 {% endapi-method-summary %}
 
 {% api-method-description %}
- 동작 검색  
+ 동작 검색    
+ 아무것도 없으면 최신순으로 가져오기  
 {% endapi-method-description %}
 
 {% api-method-spec %}
