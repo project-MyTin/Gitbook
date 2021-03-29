@@ -33,13 +33,17 @@ Cake successfully retrieved.
 ```
 {
     "statusCode": "10000",
-    "message": "motion main load sucess",
+    "message": "search sucess",
     "data": {
-        id: '동작 아이디',
-        name: '동작 이름',
-        Difficulty: '동작 난이도',
-        parts: [ '승모근','광배근','이두근' ],
-        image: '동작 이미지'
+        list: [{
+            id: '동작 아이디',
+            name: '동작 이름',
+            Difficulty: '동작 난이도',
+            parts: [ '승모근','광배근','이두근' ],
+            image: '동작 이미지'
+        }
+        ...
+        ]
     }
 }
 ```
