@@ -26,12 +26,12 @@ Authentication token to track down who is emptying our stocks.
  검색 값  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="filter" type="string" %}
-  필터
+{% api-method-parameter name="part" type="string" %}
+  필터 - 부위별
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="sort" type="boolean" %}
- 정렬값  
+{% api-method-parameter name="type" type="boolean" %}
+  필터 - 유형  
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
