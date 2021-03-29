@@ -281,7 +281,7 @@ Authentication token
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="id" type="string" required=true %}
- 동작 아이  
+ 동작 아이디  
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
