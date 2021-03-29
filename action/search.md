@@ -43,13 +43,11 @@ Cake successfully retrieved.
     "statusCode": "10000",
     "message": "search sucess",
     "data": {
-        id:'',
-        name:'',
-        Difficulty:'',
-        parts:[
-            '','',''
-        ],
-        image:''
+        id: '동작 아이디',
+        name: '동작 이름',
+        Difficulty: '동작 난이도',
+        parts: [ '승모근','광배근','이두근' ],
+        image: '동작 이미지'
     }
 }
 ```
@@ -128,6 +126,7 @@ Cake successfully retrieved.
         type: '동작 유형',
         Difficulty: '동작 난이도',
         time: '동작 시간',
+        parts: [ '승모근','광배근','이두근' ],
         description: '동작 설명',
         writer: '동작 작성자',
         url: '동작 참고자료 URL'
