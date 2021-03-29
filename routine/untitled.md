@@ -160,7 +160,7 @@ Routine Update
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
- 루틴 수정 성
+ 루틴 수정 성공   
 {% endapi-method-response-example-description %}
 
 ```

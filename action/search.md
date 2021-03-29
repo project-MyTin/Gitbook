@@ -45,7 +45,6 @@ Cake successfully retrieved.
     "data": {
         id:'',
         name:'',
-        Permissions:'',
         Difficulty:'',
         parts:[
             '','',''
@@ -124,21 +123,11 @@ Cake successfully retrieved.
     "statusCode": "10000",
     "message": "search sucess",
     "data": {
-        Permissions:'',
         name:'',
         description:'',
-        publisher:'',
-        materials[
-            '','',''
-        ],
-        exersiceDescription:'',
         time:'',
         type:'',
-        url:'',
-        image:'',
-        parts:'',
-        createAt:'',
-        updateAt:''
+        url:''
     }
 }
 ```
