@@ -121,7 +121,7 @@ Cake successfully retrieved.
 ```
 {
     "statusCode": "10000",
-    "message": "search sucess",
+    "message": "load motion detail sucess",
     "data": {
         image: '동작 이미지',
         name: '동작 이름',
