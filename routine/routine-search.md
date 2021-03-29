@@ -30,24 +30,19 @@ Routine Detail
 
 ```
 {
-    "message": "routine read successful",
-    "data": {
-        "name": "루틴 이름",
-        "description": "루틴 설명",
-        "publisher": "작성자",
-        "materials": "준비물",
-        "motions": [
-            "동작": {
-            }
-        ],
-        "time": "총 소요 시간",
-        "authority": "루틴 권한",
-        "difficulty": "루틴 난이도",
-        "type": "루틴 유형",
-        "created_time": "생성 시간",
-        "updated_time": "수정 시간",
-        "image": "루틴 이미지"
-    }
+    "_id": "루틴 아이디",
+    "name": "루틴 이름",
+    "description": "루틴 설명",
+    "publisher": "작성자",
+    "materials": "준비물",
+    "motions": [ "동작 아이디 1", "동작 아이디 2"],
+    "time": "총 소요 시간",
+    "authority": "루틴 권한",
+    "difficulty": "루틴 난이도",
+    "type": "루틴 유형",
+    "createdTime": "생성 시간",
+    "updatedTime": "수정 시간",
+    "image": "루틴 이미지"
 }
 ```
 {% endapi-method-response-example %}
@@ -109,6 +104,14 @@ Routine Search
 
 ```
 {
+    "_id": "루틴 아이디",
+    "name": "루틴 이름",
+    "description": "루틴 설명",
+    "time": "총 소요 시간",
+    "authority": "루틴 권한",
+    "difficulty": "루틴 난이도",
+    "type": "루틴 유형",
+    "image": "루틴 이미지"
 }
 ```
 {% endapi-method-response-example %}
