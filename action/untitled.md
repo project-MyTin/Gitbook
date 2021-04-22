@@ -28,6 +28,10 @@ Authentication token
 {% endapi-method-form-data-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="parts" type="array" required=true %}
+  부위들  
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="difficulty" type="string" required=true %}
  동작 난이도  
 {% endapi-method-parameter %}
@@ -198,7 +202,7 @@ Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-루틴 삭제  
+동 삭제  
 {% endapi-method-description %}
 
 {% api-method-spec %}
