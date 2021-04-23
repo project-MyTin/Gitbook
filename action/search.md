@@ -130,7 +130,7 @@ Cake successfully retrieved.
     "statusCode": "10000",
     "message": "load motion detail sucess",
     "data": {
-        image: '동작 이미지',
+        file: '동작 이미지',
         name: '동작 이름',
         type: '동작 유형',
         Difficulty: '동작 난이도',
