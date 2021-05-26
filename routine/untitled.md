@@ -21,35 +21,39 @@ description: '루틴 관리 - 생성, 수정, 삭제'
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="type" type="array" required=true %}
- 루틴 유형  
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="img" type="string" required=false %}
+  사진  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="difficulty" type="string" required=true %}
- 루틴 난이도  
+{% api-method-parameter name="materials" type="array" required=true %}
+  루틴 준비물  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="totalTime" type="string" required=true %}
- 총 시간   
+{% api-method-parameter name="breakTime" type="number" required=true %}
+  쉬는시간  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="motion" type="array" required=true %}
- 루틴에 포함되는 동작 리스트   
+{% api-method-parameter name="type" type="string" required=true %}
+  루틴 유형  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="materials" type="string" required=false %}
- 루틴 준비물 
+{% api-method-parameter name="motions" type="array" required=true %}
+  루틴에 포함되는 동작 리스트  
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="description" type="string" required=true %}
- 루틴 설명  
+  루틴 설명  
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="name" type="string" required=true %}
- 루틴 이름
+  루틴 이름  
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+
+{% api-method-parameter name="difficulty" type="string" required=true %}
+  루틴 난이도  
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
