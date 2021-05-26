@@ -143,7 +143,7 @@ Routine Update
  총 시간   
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="motion" type="array" required=true %}
+{% api-method-parameter name="motions" type="array" required=true %}
  루틴에 포함되는 동작 리스트   
 {% endapi-method-parameter %}
 

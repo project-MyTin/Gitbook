@@ -86,12 +86,12 @@ Routine Search
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
-{% api-method-parameter name="filter" type="string" required=false %}
- 필터 값  
+{% api-method-parameter name="q" type="string" required=false %}
+  검색 값  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="sort" type="string" required=false %}
- 정렬 값 
+{% api-method-parameter name="filter" type="string" required=false %}
+  필터 값  
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -107,8 +107,8 @@ Routine Search
     "_id": "루틴 아이디",
     "name": "루틴 이름",
     "description": "루틴 설명",
-    "time": "총 소요 시간",
-    "authority": "루틴 권한",
+    // "time": "총 소요 시간",
+    // "authority": "루틴 권한",
     "difficulty": "루틴 난이도",
     "type": "루틴 유형",
     "image": "루틴 이미지"
