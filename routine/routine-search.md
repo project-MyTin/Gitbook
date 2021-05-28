@@ -89,10 +89,6 @@ Routine Search
 {% api-method-parameter name="q" type="string" required=false %}
   검색 값  
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="filter" type="string" required=false %}
-  필터 값  
-{% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
