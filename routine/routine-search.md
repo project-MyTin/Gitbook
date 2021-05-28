@@ -30,19 +30,27 @@ Routine Detail
 
 ```
 {
-    "_id": "루틴 아이디",
+    "id": "루틴 아이디",
     "name": "루틴 이름",
     "description": "루틴 설명",
-    "publisher": "작성자",
     "materials": "준비물",
-    "motions": [ "동작 아이디 1", "동작 아이디 2"],
     "time": "총 소요 시간",
-    "authority": "루틴 권한",
     "difficulty": "루틴 난이도",
     "type": "루틴 유형",
-    "createdTime": "생성 시간",
-    "updatedTime": "수정 시간",
-    "image": "루틴 이미지"
+    "break_time": 30,
+    "file": "루틴 이미지",
+    "motions": [
+        motion_parts: "동작 부위",
+        motion_id: "동작 아이디",
+        motion_file: "동작 이미지",
+        motion_time: "동작 시간",
+        numOfMotion: "동작 개수",
+    ],
+    
+    //"authority": "루틴 권한",
+    //"publisher": "작성자",
+    //"createdTime": "생성 시간",
+    //"updatedTime": "수정 시간",
 }
 ```
 {% endapi-method-response-example %}
