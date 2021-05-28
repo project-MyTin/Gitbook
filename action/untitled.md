@@ -146,7 +146,7 @@ Authentication token
  동작 시간  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="type" type="array" required=false %}
+{% api-method-parameter name="type" type="string" required=false %}
  동작 유형  
 {% endapi-method-parameter %}
 
@@ -202,7 +202,11 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+#### parts example
 
+```text
+parts: [ "복부", "가슴", "팔", "어깨" ]
+```
 
 {% api-method method="delete" host="http://mytin.com" path="/motion" %}
 {% api-method-summary %}
