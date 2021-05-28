@@ -22,7 +22,7 @@ Authentication token
 {% endapi-method-headers %}
 
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="file" type="object" required=true %}
+{% api-method-parameter name="img" type="object" required=true %}
  이미지, GIF, mp4
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
