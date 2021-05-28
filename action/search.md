@@ -53,7 +53,7 @@ Cake successfully retrieved.
             name: '동작 이름',
             Difficulty: '동작 난이도',
             parts: [ '승모근','광배근','이두근' ],
-            image: '동작 이미지'
+            file: '동작 이미지'
         }
         ...
         ]
