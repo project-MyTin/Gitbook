@@ -137,7 +137,7 @@ Cake successfully retrieved.
         time: '동작 시간',
         parts: [ '승모근','광배근','이두근' ],
         description: '동작 설명',
-        publisher: '동작 작성자',
+        publisher: '동작 작성자',    // 현재는 없음  
         url: '동작 참고자료 URL'
     }
 }
