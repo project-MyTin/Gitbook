@@ -130,35 +130,43 @@ Routine Update
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="type" type="array" required=true %}
- 루틴 유형  
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="img" type="string" required=false %}
+  루틴 이미지  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="difficulty" type="string" required=true %}
- 루틴 난이도  
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="totalTime" type="string" required=true %}
- 총 시간   
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="motions" type="array" required=true %}
- 루틴에 포함되는 동작 리스트   
+{% api-method-parameter name="name" type="string" required=false %}
+  루틴 이름  
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="materials" type="string" required=false %}
- 루틴 준비물  
+  루틴 준비물  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="description" type="string" required=true %}
- 루틴 설명   
+{% api-method-parameter name="description" type="string" required=false %}
+  루틴 설명  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="name" type="string" required=true %}
- 루틴 이름 
+{% api-method-parameter name="type" type="string" required=false %}
+  유형  
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+
+{% api-method-parameter name="difficulty" type="string" required=false %}
+  루틴 난이도  
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="breakTime" type="string" required=false %}
+  쉬는 시간
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="motions" type="array" required=false %}
+  루틴에 포함되는 동작 리스트  
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
