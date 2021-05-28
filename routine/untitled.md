@@ -175,10 +175,6 @@ Routine Update
 {% api-method-parameter name="motions" type="array" required=false %}
   루틴에 포함되는 동작 리스트  
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
@@ -230,7 +226,18 @@ Routine Update
 {% endapi-method-spec %}
 {% endapi-method %}
 
+#### motions example
 
+```text
+motions: [
+    {
+        "motion_id": 28,
+        "motion_time": 5,
+        "numOfMotion": 7, 
+    }
+    ...
+]
+```
 
 {% api-method method="delete" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
