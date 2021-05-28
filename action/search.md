@@ -107,7 +107,7 @@ detail
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
+{% api-method-parameter name="id" type="string" required=true %}
  자세히 볼 동작 아이디 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
