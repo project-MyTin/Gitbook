@@ -104,7 +104,7 @@ Update
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=false %}
+{% api-method-parameter name="id" type="string" required=true %}
  수정할 id  
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
