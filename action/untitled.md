@@ -116,29 +116,33 @@ Authentication token
 {% endapi-method-headers %}
 
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="file" type="object" required=true %}
+{% api-method-parameter name="img" type="object" required=false %}
  이미지, GIF, mp4
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="difficaulty" type="string" required=true %}
+{% api-method-parameter name="parts" type="array" required=false %}
+  동작 부위  
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="difficaulty" type="string" required=false %}
  동작 난이도  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="name" type="string" required=true %}
+{% api-method-parameter name="name" type="string" required=false %}
  동작 이름  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="description" type="string" required=true %}
+{% api-method-parameter name="description" type="string" required=false %}
  동작 설명  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="time" type="string" required=true %}
+{% api-method-parameter name="time" type="string" required=false %}
  동작 시간  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="type" type="array" required=true %}
+{% api-method-parameter name="type" type="array" required=false %}
  동작 유형  
 {% endapi-method-parameter %}
 
