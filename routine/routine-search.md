@@ -100,14 +100,14 @@ Routine Search
 
 ```
 {
-    "_id": "루틴 아이디",
+    "id": "루틴 아이디",
     "name": "루틴 이름",
     "description": "루틴 설명",
     // "time": "총 소요 시간",
     // "authority": "루틴 권한",
     "difficulty": "루틴 난이도",
     "type": "루틴 유형",
-    "image": "루틴 이미지"
+    "file": "루틴 이미지"
 }
 ```
 {% endapi-method-response-example %}
