@@ -133,7 +133,7 @@ Cake successfully retrieved.
         file: '동작 이미지',
         name: '동작 이름',
         type: '동작 유형',
-        Difficulty: '동작 난이도',
+        difficulty: '동작 난이도',
         time: '동작 시간',
         parts: [ '승모근','광배근','이두근' ],
         description: '동작 설명',
