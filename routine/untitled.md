@@ -26,7 +26,7 @@ description: '루틴 관리 - 생성, 수정, 삭제'
   사진  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="materials" type="array" required=false %}
+{% api-method-parameter name="materials" type="string" required=false %}
   루틴 준비물  
 {% endapi-method-parameter %}
 
@@ -106,6 +106,19 @@ description: '루틴 관리 - 생성, 수정, 삭제'
 {% endapi-method %}
 
 
+
+#### motions example
+
+```text
+motions: [
+    {
+        "motion_id": 28,
+        "motion_time": 5,
+        "numOfMotion": 7, 
+    }
+    ...
+]
+```
 
 {% api-method method="put" host="http://mytin.com" path="/routine" %}
 {% api-method-summary %}
