@@ -26,7 +26,7 @@ description: '루틴 관리 - 생성, 수정, 삭제'
   사진  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="materials" type="array" required=true %}
+{% api-method-parameter name="materials" type="array" required=false %}
   루틴 준비물  
 {% endapi-method-parameter %}
 
