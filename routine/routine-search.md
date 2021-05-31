@@ -42,6 +42,7 @@ Routine Detail
     "motions": [
         motion_parts: "동작 부위",
         motion_id: "동작 아이디",
+        motion_name: "동작 이름",
         motion_file: "동작 이미지",
         motion_time: "동작 시간",
         numOfMotion: "동작 개수",
