@@ -4,7 +4,7 @@ description: 캘린더 일 단위
 
 # Day
 
-{% api-method method="get" host="http://mytin.com" path="/calendar/day" %}
+{% api-method method="get" host="http://mytin.com" path="/calendar" %}
 {% api-method-summary %}
 Calendar day
 {% endapi-method-summary %}
@@ -33,10 +33,53 @@ Calendar day
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "statusCode": "10000",
+    "message": "Success",
+    "data": {
+        "result": {
+            "total_list": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100
+            ],
+            "max": 100
+        }
+    }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

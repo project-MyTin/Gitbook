@@ -16,4 +16,5 @@
 ## CALENDAR
 
 * [Day](calendar/day.md)
+* [Day detail](calendar/day-detail.md)
 

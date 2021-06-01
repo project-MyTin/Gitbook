@@ -24,8 +24,8 @@ Routine record
   routine 총 시간  
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="motion\_num" type="string" required=true %}
+  routine 속 motion의 총 개???????수  
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="string" required=false %}
