@@ -23,10 +23,6 @@ Routine record
 {% api-method-parameter name="total\_time" type="number" required=true %}
   routine 총 시간  
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
