@@ -70,16 +70,6 @@ Day detail
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-공사중
-```
-{% endapi-method-response-example %}
-
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
 
