@@ -76,28 +76,37 @@ description: '루틴 관리 - 생성, 수정, 삭제'
 
 ```
 {
+    "statusCode": "10001",
+    "message": "An invalid format",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=403 %}
 {% api-method-response-example-description %}
- 생성 권한이 존재하지 않음  
+
 {% endapi-method-response-example-description %}
 
 ```
 {
+    "statusCode": "10001",
+    "message": "forbidden",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=409 %}
 {% api-method-response-example-description %}
-  이미 생성되어있는 루틴임  
+
 {% endapi-method-response-example-description %}
 
 ```
 {
+    "statusCode": "10001",
+    "message": "confilict",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -197,7 +206,11 @@ Routine Update
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "statusCode": "10001",
+    "message": "An invalid format",
+    "data": {}
+}
 ```
 {% endapi-method-response-example %}
 
@@ -208,6 +221,9 @@ Routine Update
 
 ```
 {
+    "statusCode": "10001",
+    "message": "forbidden",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -219,6 +235,9 @@ Routine Update
 
 ```
 {
+    "statusCode": "10001",
+    "message": "notfound",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -283,6 +302,9 @@ motions: [
 
 ```
 {
+    "statusCode": "10001",
+    "message": "An invalid format",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -294,6 +316,9 @@ motions: [
 
 ```
 {
+    "statusCode": "10001",
+    "message": "forbidden",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -305,6 +330,9 @@ motions: [
 
 ```
 {
+    "statusCode": "10001",
+    "message": "notfound",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}

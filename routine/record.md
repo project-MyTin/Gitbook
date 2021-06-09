@@ -33,7 +33,11 @@ Routine record
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "statusCode": "10000",
+    "message": "Success",
+    "data": {}
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

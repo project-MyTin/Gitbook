@@ -63,6 +63,9 @@ Routine Detail
 
 ```
 {
+    "statusCode": "10001",
+    "message": "bad request",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -74,6 +77,9 @@ Routine Detail
 
 ```
 {
+    "statusCode": "10001",
+    "message": "nofound",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
@@ -128,6 +134,9 @@ Routine Search
 
 ```
 {
+    "statusCode": "10001",
+    "message": "bad request",
+    "data": {}
 }
 ```
 {% endapi-method-response-example %}
